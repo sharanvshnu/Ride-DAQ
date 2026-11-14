@@ -1,0 +1,7 @@
+*.kicad_prl
+*.lck
+*-backups/
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak

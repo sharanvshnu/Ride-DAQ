@@ -2865,7 +2865,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e82efe0-ffa8-4cdd-b37c-2c19d940fc41")
 		(property "Reference" "U4"
-			(at 152.4 80.0099 0)
+			(at 152.4 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2875,8 +2875,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HM10_Breakout_1x6"
-			(at 152.4 82.5499 0)
+		(property "Value" "HM10-JST Connector"
+			(at 152.4 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

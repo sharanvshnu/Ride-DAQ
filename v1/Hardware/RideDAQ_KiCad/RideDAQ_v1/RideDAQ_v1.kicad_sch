@@ -37,6 +37,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 71.12) (xy 130.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33e72c1-a71a-4825-8085-904c954edb71")
+	)
+	(wire
+		(pts
 			(xy 121.92 83.82) (xy 130.81 83.82)
 		)
 		(stroke
@@ -130,6 +140,16 @@
 		(pin "Tx" input
 			(at 121.92 76.2 0)
 			(uuid "c74c3885-979f-41c0-b9ce-05d453f0c7c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PPS" input
+			(at 121.92 71.12 0)
+			(uuid "fafc8192-29fa-46e0-b74d-66a69aa93e75")
 			(effects
 				(font
 					(size 1.27 1.27)
