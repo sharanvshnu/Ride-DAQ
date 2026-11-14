@@ -5,6 +5,46 @@
 	(uuid "158df91c-d88f-4753-99fc-2b3b07cc7b20")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf49eac-158e-4a40-ad9c-7cb6c42da90e")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661a94b5-df48-46ea-8f93-47effddbb096")
+	)
+	(wire
+		(pts
+			(xy 121.92 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa7c02f-fc2e-4797-b12e-544bcbe0ea28")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 130.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67ac2ac-3d1a-4d82-8530-40ae911b5f0e")
+	)
 	(sheet
 		(at 96.52 67.31)
 		(size 25.4 24.13)
@@ -32,7 +72,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheets\\L3_Processing.kicad_sch"
+		(property "Sheetfile" "Sheets/L3_Processing.kicad_sch"
 			(at 96.52 92.0246 0)
 			(hide yes)
 			(show_name no)
@@ -55,6 +95,46 @@
 					(thickness 0.254)
 					(bold yes)
 				)
+			)
+		)
+		(pin "Rx" input
+			(at 121.92 73.66 0)
+			(uuid "67d10d88-ce58-4505-ad8a-56e21997ae9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 121.92 87.63 0)
+			(uuid "9d86e070-33ef-4af3-a777-bcc7b4d20558")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 121.92 83.82 0)
+			(uuid "3bf748e1-84d8-42fa-9b6b-f95e54c89817")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tx" input
+			(at 121.92 76.2 0)
+			(uuid "c74c3885-979f-41c0-b9ce-05d453f0c7c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -92,7 +172,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheets\\L2_Power_Conditioning.kicad_sch"
+		(property "Sheetfile" "Sheets/L2_Power_Conditioning.kicad_sch"
 			(at 29.21 92.0246 0)
 			(hide yes)
 			(show_name no)
@@ -152,7 +232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheets\\L4_Sensing.kicad_sch"
+		(property "Sheetfile" "Sheets/L4_Sensing.kicad_sch"
 			(at 130.81 90.7546 0)
 			(hide yes)
 			(show_name no)
@@ -189,6 +269,36 @@
 		(pin "SDA" input
 			(at 130.81 83.82 180)
 			(uuid "675d9b78-7829-4281-9ae4-1c2994599046")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PPS" input
+			(at 130.81 71.12 180)
+			(uuid "49f4717d-6d59-4764-9511-4f984a556495")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" input
+			(at 130.81 73.66 180)
+			(uuid "9ae60393-2290-46b8-ba1f-485f8d65a1be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" input
+			(at 130.81 76.2 180)
+			(uuid "0765fe2b-1a98-4060-a64d-b206c31eaef0")
 			(effects
 				(font
 					(size 1.27 1.27)

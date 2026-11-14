@@ -2326,6 +2326,16 @@
 		)
 		(uuid "03d016ce-67f8-4533-a3fe-0cdbbdd38cc5")
 	)
+	(label "GP02_TX"
+		(at 120.65 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09a9f2f5-613d-4c67-8336-c2053e50017c")
+	)
 	(label "GND"
 		(at 101.6 87.63 0)
 		(effects
@@ -2426,6 +2436,16 @@
 		)
 		(uuid "4621dbdc-7e14-474d-a24d-9a59077c4390")
 	)
+	(label "I2C_SCL"
+		(at 119.38 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66e17524-0ef5-4e06-82bd-80492ed7a790")
+	)
 	(label "HM10_TX"
 		(at 135.89 83.82 180)
 		(effects
@@ -2485,6 +2505,16 @@
 			(justify left bottom)
 		)
 		(uuid "9848fed7-9f4b-4cda-9d90-1693fe1ebdf3")
+	)
+	(label "I2C_SDA"
+		(at 119.38 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "991e5e47-b41c-4289-8773-5f9979ec45b9")
 	)
 	(label "GND"
 		(at 29.21 110.49 180)
@@ -2646,6 +2676,16 @@
 		)
 		(uuid "edcfa4e9-7ab8-459d-92ea-880915f8bf33")
 	)
+	(label "GP-02_PPS"
+		(at 120.65 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3caa6fb-71e0-4207-9830-4f5f047e28de")
+	)
 	(label "SD_MISO"
 		(at 85.09 92.71 0)
 		(effects
@@ -2655,6 +2695,71 @@
 			(justify left bottom)
 		)
 		(uuid "f6221504-0aaf-439f-ba91-573a6a561e6a")
+	)
+	(label "GP02_RX"
+		(at 120.65 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbf00c6c-128f-4cd5-9f09-6db0898eef74")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 119.38 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fefc157-7f91-4211-aa18-7250b9d6b746")
+	)
+	(hierarchical_label "PPS"
+		(shape input)
+		(at 120.65 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26faac42-60c1-445c-9ae5-f0f25aa73aa4")
+	)
+	(hierarchical_label "Tx"
+		(shape input)
+		(at 120.65 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "942cb245-e40f-42dc-bc02-0b0bff8fbbd9")
+	)
+	(hierarchical_label "Rx"
+		(shape input)
+		(at 120.65 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce599ab1-4eb6-4bc9-8520-1f649a3fb009")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 119.38 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8d7ebdc-a373-489f-b1f2-10161d542fd3")
 	)
 	(symbol
 		(lib_id "Device:LED")
