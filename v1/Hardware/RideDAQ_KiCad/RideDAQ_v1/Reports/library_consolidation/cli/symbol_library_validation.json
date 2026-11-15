@@ -1,0 +1,124 @@
+{
+  "kicad_cli": "10.0.1",
+  "symbols": [
+    {
+      "symbol_id": "Buck IC:microSD_card_holder_9_pin",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Connector:TestPoint",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Connector_Generic:Conn_01x02",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Connector_Generic:Conn_01x04",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Connector_Generic:Conn_01x06",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:Battery_Cell",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:C_Small",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:C_US",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:D_Zener",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:FerriteBead",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:Fuse",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:LED",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:L_Small",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Device:R_Small",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Diode:SMAJ9.0A",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Jumper:SolderJumper_2_Open",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Mechanical:MountingHole",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Memory_EEPROM:AT24CS32-XHM",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Regulator_Linear:LD1117S33TR_SOT223",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Regulator_Switching:TPS5430DDA",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "RideDAQ_v1:HM10_Breakout_1x6",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Sensor:BME280",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Timer_RTC:DS3231M",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "Transistor_FET:AO3401A",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "power:+3V3",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "power:+5V",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "power:GND",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "power:PWR_FLAG",
+      "exit_code": 0
+    },
+    {
+      "symbol_id": "teensy_master:Teensy4.0",
+      "exit_code": 0
+    }
+  ],
+  "passed": 29,
+  "total": 29,
+  "overall": "PASS"
+}

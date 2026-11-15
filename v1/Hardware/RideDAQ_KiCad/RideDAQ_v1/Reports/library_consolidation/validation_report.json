@@ -1,0 +1,22 @@
+{
+  "project": "S:\\Astrasic\\Works\\RideDAQ\\v1\\Hardware\\RideDAQ_KiCad\\RideDAQ_v1",
+  "kicad_cli_version": "10.0.1",
+  "checks": {
+    "75_footprints_and_all_definitions_resolve": true,
+    "22_project_local_models_resolve": true,
+    "footprint_table_and_definitions_resolve": true,
+    "all_29_symbol_ids_have_local_libraries": true,
+    "baseline_structural_comparison_passed": true,
+    "kicad_cli_board_export": true,
+    "kicad_cli_hierarchical_schematic_export": true,
+    "all_29_symbol_library_exports": true
+  },
+  "passed": 8,
+  "total": 8,
+  "overall": "PASS",
+  "footprints": 75,
+  "footprint_ids": 27,
+  "models": 22,
+  "symbol_ids": 29,
+  "symbol_namespaces": 16
+}
