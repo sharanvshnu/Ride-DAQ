@@ -957,12 +957,6 @@
 		(uuid "4a5797fa-cc3b-44b1-af86-c58f9e6172d6")
 	)
 	(junction
-		(at 63.5 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59e2fa12-33ad-445b-b429-e9f72c17bf30")
-	)
-	(junction
 		(at 144.78 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -989,16 +983,6 @@
 			(type default)
 		)
 		(uuid "007b8aa1-c8f4-46a2-92ce-b9e9370afe45")
-	)
-	(wire
-		(pts
-			(xy 60.96 91.44) (xy 63.5 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c301a13-576c-4d7c-bb12-baca3446b0ff")
 	)
 	(wire
 		(pts
@@ -1052,16 +1036,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 91.44) (xy 66.04 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cabc61d-496e-4d98-a191-075a30ca3eeb")
-	)
-	(wire
-		(pts
 			(xy 21.59 33.02) (xy 21.59 35.56)
 		)
 		(stroke
@@ -1112,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 83.82) (xy 99.06 87.63)
+			(xy 99.06 85.09) (xy 99.06 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1132,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 111.76 87.63)
+			(xy 111.76 85.09) (xy 111.76 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1250,16 +1224,6 @@
 		)
 		(uuid "1d322475-a200-4f34-9240-4cc190de5821")
 	)
-	(label "3V3"
-		(at 111.76 83.82 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "29049f01-8ec1-4262-938e-d498a491fd03")
-	)
 	(label "MISO"
 		(at 113.03 50.8 180)
 		(effects
@@ -1320,36 +1284,6 @@
 		)
 		(uuid "692c252d-c63c-41e6-b2b2-ded38a874e7c")
 	)
-	(label "SD_VCC"
-		(at 66.04 91.44 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "74d1a876-0df4-4ec1-b2b2-559320735c87")
-	)
-	(label "3V3"
-		(at 21.59 33.02 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "7cea7540-f71f-44fc-8d55-c86c5f588549")
-	)
-	(label "3V3"
-		(at 62.23 33.02 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "81e06672-8c6f-4aa8-addd-f8429ae4c2a7")
-	)
 	(label "SCK"
 		(at 49.53 44.45 180)
 		(effects
@@ -1359,26 +1293,6 @@
 			(justify right bottom)
 		)
 		(uuid "8c7105fb-02a5-4f82-8be5-ee10c5d86dd4")
-	)
-	(label "3V3"
-		(at 49.53 33.02 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d843ec6-5168-4641-b85f-c39511cc3ce6")
-	)
-	(label "3V3"
-		(at 99.06 83.82 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e23035f-7f67-4f8b-b851-5f7871c64986")
 	)
 	(label "MOSI"
 		(at 34.29 44.45 180)
@@ -1400,16 +1314,6 @@
 		)
 		(uuid "d14fe22a-df4e-4cb4-8e6a-2aae635d1271")
 	)
-	(label "3V3"
-		(at 60.96 91.44 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "d41fc6c7-a9d7-4119-b5a1-d79cd04e84b7")
-	)
 	(label "SCK"
 		(at 33.02 93.98 180)
 		(effects
@@ -1419,16 +1323,6 @@
 			(justify right bottom)
 		)
 		(uuid "d6f5ca16-b758-4210-868c-8b02aeded835")
-	)
-	(label "3V3"
-		(at 34.29 33.02 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "e44779bd-bbbc-41e8-8201-d2274de65334")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -1635,6 +1529,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 21.59 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "086f0042-e92b-4cae-bd6a-3bed9d7fc4dd")
+		(property "Reference" "#PWR063"
+			(at 21.59 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 21.59 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 21.59 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26f3c35e-e38f-439b-8edf-0bcfcd5d044e")
+		)
+		(instances
+			(project "RideDAQ_v1"
+				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 111.76 90.17 0)
 		(unit 1)
@@ -1717,6 +1689,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 99.06 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14169107-8378-4c83-9da6-03be05e7ceec")
+		(property "Reference" "#PWR067"
+			(at 99.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 99.06 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 99.06 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c0e3f33-b30e-48f1-a5e2-6e6d47018ca2")
+		)
+		(instances
+			(project "RideDAQ_v1"
+				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 58.42 0)
 		(unit 1)
@@ -1789,84 +1839,6 @@
 			(project "RideDAQ_v1"
 				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 63.5 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c3596d1-4e01-43e0-80d7-555da04c16fa")
-		(property "Reference" "#PWR027"
-			(at 63.5 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 63.5 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 63.5 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ffb93ad-f30a-41ab-99d1-8b42e812f286")
-		)
-		(instances
-			(project "RideDAQ_v1"
-				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2041,7 +2013,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "59af0550-ee05-4dd0-b063-1ad43dfad0e2")
 		(property "Reference" "R11"
@@ -2273,6 +2245,318 @@
 			(project "RideDAQ_v1"
 				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 111.76 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73a8b497-77c1-4966-83fd-931290514939")
+		(property "Reference" "#PWR068"
+			(at 111.76 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 111.76 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 111.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0a5b0cd-5ae2-4377-b709-a3ea82939740")
+		)
+		(instances
+			(project "RideDAQ_v1"
+				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 49.53 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8427e835-af28-4da6-bad9-3b4282c83898")
+		(property "Reference" "#PWR065"
+			(at 49.53 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 49.53 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8c58a9a-d49c-4ebb-ba16-b4c87a320582")
+		)
+		(instances
+			(project "RideDAQ_v1"
+				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 62.23 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27ab187-00a5-436c-a93f-997acbdc5c0e")
+		(property "Reference" "#PWR066"
+			(at 62.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 62.23 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14837e7e-9677-4427-92fd-efd5bfd90d7b")
+		)
+		(instances
+			(project "RideDAQ_v1"
+				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 34.29 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d62e6268-f00a-4d06-9e58-93735462bbd4")
+		(property "Reference" "#PWR064"
+			(at 34.29 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec114375-3072-4a1d-bf9a-42f2e4bba889")
+		)
+		(instances
+			(project "RideDAQ_v1"
+				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/16deced6-d3e0-4d30-90eb-577afd30839e/5ecd572f-0cad-4b28-bf0a-e0b8d593e68b"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)

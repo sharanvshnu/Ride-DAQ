@@ -800,12 +800,6 @@
 		)
 	)
 	(junction
-		(at 76.2 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81f2a835-b9d4-4c42-b045-aec245721b80")
-	)
-	(junction
 		(at 60.96 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -881,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 48.26) (xy 76.2 48.26)
+			(xy 63.5 48.26) (xy 92.71 48.26)
 		)
 		(stroke
 			(width 0)
@@ -991,16 +985,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 48.26) (xy 76.2 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef526d95-9871-4b9b-8caf-537a968fe49b")
-	)
-	(wire
-		(pts
 			(xy 123.19 59.69) (xy 123.19 60.96)
 		)
 		(stroke
@@ -1011,13 +995,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 55.88) (xy 76.2 48.26)
+			(xy 130.81 45.72) (xy 130.81 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2e8aec1-4788-4906-aef0-deede0131cef")
+		(uuid "f35c21c4-6aac-48ad-8b89-f3ba8acbdf9d")
 	)
 	(label "SDA"
 		(at 119.38 45.72 180)
@@ -1028,6 +1012,16 @@
 			(justify right bottom)
 		)
 		(uuid "09031ffd-13df-4349-a34e-6f7018cafd11")
+	)
+	(label "SDO"
+		(at 76.2 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10acb4ef-0083-4c05-a941-e8e37d88e98b")
 	)
 	(label "SCL"
 		(at 110.49 45.72 180)
@@ -1048,6 +1042,16 @@
 			(justify left bottom)
 		)
 		(uuid "c32a547a-801e-475a-b599-18b78156eb8b")
+	)
+	(label "SDO"
+		(at 130.81 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0e78cb5-1f5d-448f-9c80-c9c4e3b2d90d")
 	)
 	(label "SCL"
 		(at 76.2 60.96 0)
@@ -1422,6 +1426,88 @@
 			(project "RideDAQ_v1"
 				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/afdbd0ce-1957-4f0b-b33c-d6e1c632e1c3/53826b68-7c09-4615-9d87-be0f7828ef3b"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 130.81 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7092b53f-793a-4f0a-a782-64ed44036544")
+		(property "Reference" "R24"
+			(at 133.35 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kR"
+			(at 133.35 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 130.81 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 130.81 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c73ae472-10ee-47ff-b750-94f0a62fc39a")
+		)
+		(pin "1"
+			(uuid "c7ecf176-e52d-4853-a3a2-419c51ce65ad")
+		)
+		(instances
+			(project "RideDAQ_v1"
+				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/afdbd0ce-1957-4f0b-b33c-d6e1c632e1c3/53826b68-7c09-4615-9d87-be0f7828ef3b"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1914,6 +2000,84 @@
 			(project "RideDAQ_v1"
 				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/afdbd0ce-1957-4f0b-b33c-d6e1c632e1c3/53826b68-7c09-4615-9d87-be0f7828ef3b"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 130.81 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6828547-2362-405c-ac4c-986abaff2463")
+		(property "Reference" "#PWR069"
+			(at 130.81 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.81 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 130.81 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "860ebbcf-2f00-4d02-8c96-f40393480670")
+		)
+		(instances
+			(project "RideDAQ_v1"
+				(path "/158df91c-d88f-4753-99fc-2b3b07cc7b20/afdbd0ce-1957-4f0b-b33c-d6e1c632e1c3/53826b68-7c09-4615-9d87-be0f7828ef3b"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
