@@ -1,4 +1,5 @@
 (sym_lib_table
+  (lib (name "RideDAQ_CAN")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/RideDAQ_CAN.kicad_sym")(options "")(descr "RideDAQ CAN-FD transceiver"))
   (lib (name "Buck IC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/Buck IC.kicad_sym")(options "")(descr "RideDAQ project-local symbol library"))
   (lib (name "Connector")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/Connector.kicad_sym")(options "")(descr "RideDAQ project-local symbol library"))
   (lib (name "Connector_Generic")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/Connector_Generic.kicad_sym")(options "")(descr "RideDAQ project-local symbol library"))

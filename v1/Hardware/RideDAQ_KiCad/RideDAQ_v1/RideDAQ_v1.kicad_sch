@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 95.25 74.93) (xy 102.87 74.93)
+			(xy 91.44 80.01) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 64.77) (xy 137.16 64.77)
+			(xy 148.59 64.77) (xy 157.48 64.77)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 67.31) (xy 137.16 67.31)
+			(xy 148.59 67.31) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 137.16 78.74)
+			(xy 148.59 78.74) (xy 157.48 78.74)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 62.23) (xy 137.16 62.23)
+			(xy 148.59 62.23) (xy 157.48 62.23)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 76.2) (xy 137.16 76.2)
+			(xy 148.59 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -66,8 +66,8 @@
 		(uuid "d67ac2ac-3d1a-4d82-8530-40ae911b5f0e")
 	)
 	(sheet
-		(at 102.87 58.42)
-		(size 25.4 24.13)
+		(at 107.95 58.42)
+		(size 40.64 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -81,7 +81,7 @@
 		)
 		(uuid "16deced6-d3e0-4d30-90eb-577afd30839e")
 		(property "Sheetname" "L3_Processing"
-			(at 102.87 57.7084 0)
+			(at 107.95 57.7084 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93,7 +93,7 @@
 			)
 		)
 		(property "Sheetfile" "Sheets/L3_Processing.kicad_sch"
-			(at 102.87 83.1346 0)
+			(at 107.95 83.1346 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -105,7 +105,7 @@
 			)
 		)
 		(property "Name" "PROCESSING"
-			(at 115.57 70.358 0)
+			(at 120.65 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -118,7 +118,7 @@
 			)
 		)
 		(pin "GP02_PPS" input
-			(at 128.27 62.23 0)
+			(at 148.59 62.23 0)
 			(uuid "9ec71acd-c4a9-48b4-8361-407f89445998")
 			(effects
 				(font
@@ -128,7 +128,7 @@
 			)
 		)
 		(pin "GP02_RX" input
-			(at 128.27 64.77 0)
+			(at 148.59 64.77 0)
 			(uuid "3f7f15c6-16e8-4c3c-b1ab-e65ae70893e3")
 			(effects
 				(font
@@ -138,7 +138,7 @@
 			)
 		)
 		(pin "GP02_TX" input
-			(at 128.27 67.31 0)
+			(at 148.59 67.31 0)
 			(uuid "7284af21-d80e-475f-bfb7-60081e559d72")
 			(effects
 				(font
@@ -148,7 +148,7 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 128.27 78.74 0)
+			(at 148.59 78.74 0)
 			(uuid "95be3e35-7a5d-4b18-8b2a-69074fa723cd")
 			(effects
 				(font
@@ -158,7 +158,7 @@
 			)
 		)
 		(pin "I2C_SDA" input
-			(at 128.27 76.2 0)
+			(at 148.59 76.2 0)
 			(uuid "89574fc7-83a6-4f9f-b4ff-ccce6091c034")
 			(effects
 				(font
@@ -168,7 +168,7 @@
 			)
 		)
 		(pin "PACK_V_SENSE" input
-			(at 102.87 74.93 180)
+			(at 107.95 80.01 180)
 			(uuid "2e53c091-b1f6-40d2-b969-8af3a7b4705e")
 			(effects
 				(font
@@ -186,8 +186,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 58.42)
-		(size 57.15 24.13)
+		(at 34.29 57.15)
+		(size 57.15 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -201,7 +201,7 @@
 		)
 		(uuid "91fd4969-67d1-403c-ac5f-c35353de3673")
 		(property "Sheetname" "L2_Power_Conditioning"
-			(at 38.1 57.7084 0)
+			(at 34.29 56.4384 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -213,7 +213,7 @@
 			)
 		)
 		(property "Sheetfile" "Sheets/L2_Power_Conditioning.kicad_sch"
-			(at 38.1 83.1346 0)
+			(at 34.29 81.8646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -225,7 +225,7 @@
 			)
 		)
 		(property "Name" "POWER CONDITIONING"
-			(at 63.754 70.612 0)
+			(at 59.944 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -238,7 +238,7 @@
 			)
 		)
 		(pin "PACK_V_SENSE" input
-			(at 95.25 74.93 0)
+			(at 91.44 80.01 0)
 			(uuid "a5d08032-1c3e-41e3-89f8-1267fdaa8f45")
 			(effects
 				(font
@@ -256,8 +256,8 @@
 		)
 	)
 	(sheet
-		(at 137.16 58.42)
-		(size 21.59 24.13)
+		(at 157.48 58.42)
+		(size 27.94 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -271,7 +271,7 @@
 		)
 		(uuid "afdbd0ce-1957-4f0b-b33c-d6e1c632e1c3")
 		(property "Sheetname" "L4_Sensing"
-			(at 137.16 57.7084 0)
+			(at 157.48 57.7084 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -283,7 +283,7 @@
 			)
 		)
 		(property "Sheetfile" "Sheets/L4_Sensing.kicad_sch"
-			(at 137.16 81.8646 0)
+			(at 157.48 81.8646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -295,7 +295,7 @@
 			)
 		)
 		(property "Name" "SENSING"
-			(at 147.828 69.596 0)
+			(at 175.514 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -307,7 +307,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 137.16 78.74 180)
+			(at 157.48 78.74 180)
 			(uuid "91ec8800-ad3c-47e6-bf2b-8839ce3f0eab")
 			(effects
 				(font
@@ -317,7 +317,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 137.16 76.2 180)
+			(at 157.48 76.2 180)
 			(uuid "675d9b78-7829-4281-9ae4-1c2994599046")
 			(effects
 				(font
@@ -327,7 +327,7 @@
 			)
 		)
 		(pin "PPS" input
-			(at 137.16 62.23 180)
+			(at 157.48 62.23 180)
 			(uuid "49f4717d-6d59-4764-9511-4f984a556495")
 			(effects
 				(font
@@ -337,7 +337,7 @@
 			)
 		)
 		(pin "RX" input
-			(at 137.16 64.77 180)
+			(at 157.48 64.77 180)
 			(uuid "9ae60393-2290-46b8-ba1f-485f8d65a1be")
 			(effects
 				(font
@@ -347,7 +347,7 @@
 			)
 		)
 		(pin "TX" input
-			(at 137.16 67.31 180)
+			(at 157.48 67.31 180)
 			(uuid "0765fe2b-1a98-4060-a64d-b206c31eaef0")
 			(effects
 				(font
